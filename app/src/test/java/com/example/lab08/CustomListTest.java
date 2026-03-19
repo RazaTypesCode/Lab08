@@ -11,6 +11,7 @@ public class CustomListTest {
         assertTrue(list.hasCity(calgary));
     }
 
+    @Test
     public void testCountCity() {
         CustomList list = new CustomList();
         City karachi = new City("Karachi", "Sindh");
